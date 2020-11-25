@@ -1,0 +1,81 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "hi",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "senddeferred",
+            "base": "",
+            "fields": [
+                {
+                    "name": "actor",
+                    "type": "name"
+                },
+                {
+                    "name": "contract_name",
+                    "type": "name"
+                },
+                {
+                    "name": "action_name",
+                    "type": "name"
+                },
+                {
+                    "name": "packed_params",
+                    "type": "bytes"
+                }
+            ]
+        },
+        {
+            "name": "sendinline",
+            "base": "",
+            "fields": [
+                {
+                    "name": "actor",
+                    "type": "name"
+                },
+                {
+                    "name": "contract_name",
+                    "type": "name"
+                },
+                {
+                    "name": "action_name",
+                    "type": "name"
+                },
+                {
+                    "name": "packed_params",
+                    "type": "bytes"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "hi",
+            "type": "hi",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "senddeferred",
+            "type": "senddeferred",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "sendinline",
+            "type": "sendinline",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": []
+}
